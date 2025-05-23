@@ -2,7 +2,9 @@
 import mongoose, { Schema } from 'mongoose'
 
 // App Imports
+
 import { collection as User } from '../user/model'
+
 
 // Collection name
 export const collection = 'Email'

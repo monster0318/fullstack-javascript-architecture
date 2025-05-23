@@ -13,6 +13,7 @@ import {
   EMAIL_TEST,
   NODE_ENV,
 } from '../../setup/config/env'
+
 import params from '../../setup/config/params'
 import Email from './model'
 import view from './template/view'
