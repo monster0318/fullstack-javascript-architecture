@@ -5,7 +5,6 @@ import mongoose, { Schema } from 'mongoose'
 
 import { collection as User } from '../user/model'
 
-
 // Collection name
 export const collection = 'Email'
 
