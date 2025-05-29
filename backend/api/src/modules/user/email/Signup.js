@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 // App Imports
 import params from '../../../setup/config/params'
 
+
 // Component
 const Signup = ({ translate, to }) => (
   <React.Fragment>
