@@ -5,6 +5,7 @@ import jwt from 'jsonwebtoken'
 import { SECURITY_SECRET } from '../config/env'
 import User from '../../modules/user/model'
 
+
 // Authentication middleware
 export default async function (request, response, next) {
   let header = request.headers.authentication
